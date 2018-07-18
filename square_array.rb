@@ -1,6 +1,3 @@
 def square_array(numbers)
-  numbers.each do |number|
-    puts number ** 2
-  end
-  return new_numbers = []
+  numbers.collect{|i| i ** 2}
 end
